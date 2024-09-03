@@ -1,0 +1,213 @@
+<!-- Author: Hannah Bauer
+Course: CGS1821.0M1
+Date: 04/09/2023
+Assignment: Module 9: (Chapter 14) Shape Up! -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shape Up! | Calorie Counter</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/calories.css">
+</head>
+
+<body>
+	<header>
+		<a href="../index.html"><img src="../images/shape_up_logo.png" alt="Shape Up logo" ></a>
+		<h2>Shape Up!</h2>
+		<h3>Find The Best Fit For You</h3>
+	</header>  
+	<nav id="nav_menu">
+		<ul>
+    	    <li><a href="../index.html">Home</a></li>
+    	    <li><a href="../strength/index.html">Strength Training</a></li>
+    	    <li><a href="../cardio/index.html">Cardio Exercises</a></li>
+    	    <li><a href="../stress/index.html">Stress Relief</a>
+    		    <ul>
+    			    <li><a href="../stress/index.html">What is Stress?</a></li>
+    			    <li><a href="../stress/tips.html">5 Helpful Tips</a></li>
+    			    <li><a href="../stress/meditation.html">Meditation</a></li>
+    			    <li><a href="../stress/vipassana.html">Vipassana</a></li>
+    		    </ul>
+    	    </li>
+    	    <li><a href="index.html" class="current">Healthy Diets</a>
+    	        <ul>
+    	            <li><a href="index.html">Why a Healthy Diet?</a></li>
+    	            <li><a href="meals.html">Plan Your Meals</a></li>
+    	            <li><a href="calories.html" class="current">Count Your Calories</a></li>
+    	            <li><a href="bmi.html">Calculate Your BMI</a></li>
+    	        </ul>    	    
+    	    </li>
+	    </ul>
+    </nav>
+    <main>
+		<section>
+			<figure>
+			<figcaption><h2>Calorie Counter</h2></figcaption>
+			<table>
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Food</th>
+						<th>Serving Size</th>
+						<th>Calories</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="3">Beef</td> 					<!--BEEF-->
+						<td>Frankfurter, Beef</td>
+						<td>1 each</td>
+						<td class="right">184</td>
+					</tr>
+					<tr>
+						<td>Ground Beef</td>
+						<td>4 Oz</td>
+						<td class="right">264</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>T-Bone Steak</td>
+						<td>8 Ounces</td>
+						<td class="right">402</td>
+					</tr>
+					<tr>
+						<td rowspan="3">Bread</td>
+						<td>Bagel, Plain</td>
+						<td>1 Bagel</td>
+						<td class="right">360</td>
+					</tr>
+					<tr>
+						<td>Bread, Sliced</td>
+						<td>1 Slice</td>
+						<td class="right">60 to 80</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>English Muffin</td>
+						<td>1</td>
+						<td class="right">135</td>
+					</tr>
+					<tr>
+						<td rowspan="3">Cereal</td> 				<!--CEREAL-->
+						<td>Cheerios</td>
+						<td>1 Cup</td>
+						<td class="right">110</td>
+					</tr>
+					<tr>
+						<td>Corn Flakes</td>
+						<td>1 Cup</td>
+						<td class="right">100</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>Oatmeal, Quick</td>
+						<td>1 Cup Cooked</td>
+						<td class="right">145</td>
+					</tr>
+					<tr>
+						<td rowspan="4">Cheese</td> 				<!--CHEESE-->
+						<td>American</td>
+						<td>1 Ounce</td>
+						<td class="right">106</td>
+					</tr>
+					<tr>
+						<td>Swiss</td>
+						<td>1 Ounce</td>
+						<td class="right">100</td>
+					</tr>
+					<tr>
+						<td>Cheddar</td>
+						<td>1 Ounce</td>
+						<td class="right">100</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>Cottage Cheese, Regular</td>
+						<td>1/2 Cup</td>
+						<td class="right">114</td>
+					</tr>
+					<tr>
+						<td rowspan="2">Fruit</td> 					<!--FRUIT--> 
+						<td>Apple</td>
+						<td>1 Medium</td>
+						<td class="right">117</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>Banana</td>
+						<td>1</td>
+						<td class="right">80</td>
+					</tr>
+					<tr>
+						<td rowspan="2">Vegetables</td> 			<!--VEGETABLES-->
+						<td>Carrot, Raw</td>
+						<td>1 Medium</td>
+						<td class="right">105</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>Celery</td>
+						<td>1 Large Stalk</td>
+						<td class="right">9</td>
+					</tr>
+					
+					<tr>
+						<td rowspan="7">Miscellaneous</td> 			<!--MISC-->
+						<td>Milk, Whole</td>
+						<td>1 Cup</td>
+						<td class="right">157</td>
+					</tr>
+					<tr>
+						<td>Eggs</td>
+						<td>1</td>
+						<td class="right">70</td>
+					</tr>
+					<tr>
+						<td>Peanut Butter</td>
+						<td>2 Tablespoons</td>
+						<td class="right">188</td>
+					</tr>
+					<tr>
+						<td>Pasta</td>
+						<td>1/2 Cup Dry</td>
+						<td class="right">200</td>
+					</tr>
+					<tr>
+						<td>Rice</td>
+						<td>1 Cup Cooked</td>
+						<td class="right">204</td>
+					</tr>
+					<tr>
+						<td>Canned Tuna, In Water</td>
+						<td>2 Ounces</td>
+						<td class="right">70</td>
+					</tr>
+					<tr class="border_bottom">
+						<td>Baked Potato</td>
+						<td>1 medium</td>
+						<td class="right">130</td>
+					</tr>
+
+				</tbody>
+			</table>
+			</figure>
+				<tfoot>
+					<tr class="border_bottom">
+						<th class="right"> Note: Contact us to get a detailed list of food calories.</th>
+					</tr>
+				</tfoot>
+			</table>
+			</figure>
+ 		</section>
+		 <aside>
+		    <h2>Additional Resources:</h2>
+		    <ul>
+                <li><a href="https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm">Physical Activity and Health</a></li>
+			    <li><a href="http://www.heart.org/HEARTORG/HealthyLiving/PhysicalActivity/FitnessBasics/Flexibility-Exercise-Stretching_UCM_464002_Article.jsp#.WpB8zIPwaUl">Stretching Exercises</a></li>
+			    <li><a href="http://www.heart.org/HEARTORG/HealthyLiving/PhysicalActivity/FitnessBasics/Strength-and-Resistance-Training-Exercise_UCM_462357_Article.jsp#.WpCPxIPwaUl">Strength Training</a></li>
+			    <li><a href="https://www.health.harvard.edu/exercise-and-fitness/interval-training-for-a-stronger-heart">Cardiovascular Training</a></li>
+			    <li><a href="https://www.self.com/gallery/power-yoga-workout">Yoga Workout</a></li>
+		    </ul>
+        </aside>
+	</main>
+	<footer>
+		<p>&copy; 2022 Shape Up!</p>	
+	</footer>
